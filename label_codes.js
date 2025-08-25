@@ -1,0 +1,1 @@
+javascript:(function() {    const labels = document.querySelectorAll('[translate]');    for (let i = 0; i < labels.length; i++) {        let label = labels[i];        label.setAttribute('title', label.getAttribute('translate'));    }})();
